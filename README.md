@@ -6,10 +6,10 @@ The `partition` is an implementation of mathematical partition of `n` into `r` p
 The output of this function is a list containing all the possible partitions in provided condition.
 
 ## Sample calls
-`partition(10, 3)` will output partitions of `10` with `3` numbers each between 0 and 10 (both inclusive).
-`partition(10, 3, mn=4)`  will output partitions of `10` with `3` numbers each between 4 and 10 (both inclusive).
-`partition(10, 3, mx=7)`  will output partitions of `10` with `3` numbers each between 0 and 7 (both inclusive).
-`partition(10, 3, mn=2, mx = 8)`  will output partitions of `10` with `3` numbers each between 2 and 8 (both inclusive).
+`partition(10, 3)` will output partitions of `10` with `3` numbers each between `0` and `10` (both inclusive).
+`partition(10, 3, mn=4)`  will output partitions of `10` with `3` numbers each between `4` and `10` (both inclusive).
+`partition(10, 3, mx=7)`  will output partitions of `10` with `3` numbers each between `0` and `7` (both inclusive).
+`partition(10, 3, mn=2, mx = 8)`  will output partitions of `10` with `3` numbers each between `2` and `8` (both inclusive).
 
 ## Sample outputs
 `partition(5, 3)` yields the following output `[[0, 0, 5], [0, 1, 4], [0, 2, 3], [1, 1, 3], [1, 2, 2]]`
